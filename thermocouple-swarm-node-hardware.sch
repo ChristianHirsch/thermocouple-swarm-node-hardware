@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+LIBS:thermocouple-swarm-node-hardware-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7350 7500 0    60   ~ 0
+NRF52840 Template
+$Comp
+L power:GNDD #PWR016
+U 1 1 5C6A9BC7
+P 5600 6550
+F 0 "#PWR016" H 5600 6300 50  0001 C CNN
+F 1 "GNDD" H 5604 6395 50  0000 C CNN
+F 2 "" H 5600 6550 50  0001 C CNN
+F 3 "" H 5600 6550 50  0001 C CNN
+	1    5600 6550
+	1    0    0    -1  
+$EndComp
+Text Notes 4950 1500 1    50   ~ 0
+N.C.
+$Comp
+L power:GNDD #PWR017
+U 1 1 5C6BDEB5
+P 5700 6550
+F 0 "#PWR017" H 5700 6300 50  0001 C CNN
+F 1 "GNDD" H 5704 6395 50  0000 C CNN
+F 2 "" H 5700 6550 50  0001 C CNN
+F 3 "" H 5700 6550 50  0001 C CNN
+	1    5700 6550
+	1    0    0    -1  
+$EndComp
+Text Label 4300 5550 2    50   ~ 0
+SWDCLK
+Text Label 4300 5650 2    50   ~ 0
+SWDIO
+$Comp
+L MCU_Nordic:nRF52840 U1
+U 1 1 5C669558
+P 5600 3750
+F 0 "U1" H 5600 1950 50  0000 C CNN
+F 1 "nRF52840" H 5600 1850 50  0000 C CNN
+F 2 "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm" H 5600 850 50  0001 C CNN
+F 3 "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html" H 4950 5650 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4900 950 
+NoConn ~ 6900 1550
+NoConn ~ 6900 1950
+NoConn ~ 6900 2250
+NoConn ~ 6900 2350
+NoConn ~ 6900 2450
+NoConn ~ 6900 2850
+NoConn ~ 6900 3650
+NoConn ~ 6900 3950
+NoConn ~ 6900 4150
+NoConn ~ 6900 4550
+NoConn ~ 6900 4750
+NoConn ~ 6900 4950
+NoConn ~ 6900 5150
+NoConn ~ 6900 5250
+NoConn ~ 6900 5450
+NoConn ~ 6900 5550
+NoConn ~ 6900 5650
+NoConn ~ 6900 5750
+NoConn ~ 6900 5850
+NoConn ~ 6900 3250
+NoConn ~ 6900 3050
+NoConn ~ 6900 3450
+NoConn ~ 4300 5450
+Text Label 6900 4450 0    50   ~ 0
+SWO
+NoConn ~ 6900 5350
+NoConn ~ 6900 5950
+NoConn ~ 6900 3550
+NoConn ~ 6900 2950
+NoConn ~ 6900 3350
+NoConn ~ 6900 3150
+NoConn ~ 6900 2750
+NoConn ~ 6900 2550
+Text Label 1300 4500 0    50   ~ 0
+SWDCLK
+Text Label 1300 4600 0    50   ~ 0
+SWDIO
+Text Label 1300 4700 0    50   ~ 0
+SWO
+Text Label 1300 4800 0    50   ~ 0
+XC1
+Text Label 1300 4900 0    50   ~ 0
+XC2
+Text Label 4300 3550 2    50   ~ 0
+XC1
+Text Label 4300 3950 2    50   ~ 0
+XC2
+Text Label 1300 5000 0    50   ~ 0
+ANT
+Text Label 1300 5100 0    50   ~ 0
+DEC5
+Text Label 1300 5200 0    50   ~ 0
+DCC
+Text Label 1300 5300 0    50   ~ 0
+DEC6
+Text Label 1300 5400 0    50   ~ 0
+DEC4
+Text Label 1300 5500 0    50   ~ 0
+DEC3
+Text Label 1300 5600 0    50   ~ 0
+DEC1
+Text Label 1300 5700 0    50   ~ 0
+VDD
+Text Label 1300 5800 0    50   ~ 0
+DCCH
+Text Label 1300 5900 0    50   ~ 0
+VDDH
+Text Label 1300 6000 0    50   ~ 0
+DECUSB
+Text Label 1300 6100 0    50   ~ 0
+VBUS
+Text Label 4800 950  1    50   ~ 0
+DEC1
+Text Label 5000 950  1    50   ~ 0
+DEC3
+Text Label 5100 950  1    50   ~ 0
+DEC4
+Text Label 5200 950  1    50   ~ 0
+DEC5
+Text Label 5300 950  1    50   ~ 0
+DEC6
+Text Label 5400 950  1    50   ~ 0
+DECUSB
+Text Label 5600 950  1    50   ~ 0
+VDD
+Text Label 5700 950  1    50   ~ 0
+VDDH
+Text Label 5800 950  1    50   ~ 0
+VBUS
+Text Label 6000 950  1    50   ~ 0
+DCC
+Text Label 6100 950  1    50   ~ 0
+DCCH
+Text Label 4300 1950 2    50   ~ 0
+ANT
+Text Label 1300 6200 0    50   ~ 0
+XL1
+Text Label 1300 6300 0    50   ~ 0
+XL2
+Text Label 6900 1250 0    50   ~ 0
+XL1
+Text Label 6900 1350 0    50   ~ 0
+XL2
+Text Label 1300 6400 0    50   ~ 0
+D+
+Text Label 1300 6500 0    50   ~ 0
+D-
+Text Label 6900 6250 0    50   ~ 0
+D+
+Text Label 6900 6150 0    50   ~ 0
+D-
+Text Label 1300 6700 0    50   ~ 0
+BATT_V
+Text Label 6900 1450 0    50   ~ 0
+BATT_V
+Text Label 1300 6600 0    50   ~ 0
+BATT_V_EN
+Text Label 6900 4650 0    50   ~ 0
+BATT_V_EN
+$Comp
+L power:VCC #PWR0123
+U 1 1 5D1F901B
+P 9200 3250
+F 0 "#PWR0123" H 9200 3100 50  0001 C CNN
+F 1 "VCC" H 9217 3423 50  0000 C CNN
+F 2 "" H 9200 3250 50  0001 C CNN
+F 3 "" H 9200 3250 50  0001 C CNN
+	1    9200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5D1F9297
+P 10050 3750
+F 0 "C26" H 10165 3796 50  0000 L CNN
+F 1 "100n" H 10165 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10088 3600 50  0001 C CNN
+F 3 "~" H 10050 3750 50  0001 C CNN
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D1FB361
+P 9950 5500
+F 0 "R3" H 10020 5546 50  0000 L CNN
+F 1 "220" H 10020 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 5500 50  0001 C CNN
+F 3 "~" H 9950 5500 50  0001 C CNN
+	1    9950 5500
+	1    0    0    -1  
+$EndComp
+Text Label 6900 1850 0    50   ~ 0
+MISO
+Text Label 6900 2050 0    50   ~ 0
+SCK
+NoConn ~ 6900 1650
+NoConn ~ 6900 1750
+NoConn ~ 6900 4050
+NoConn ~ 6900 4250
+Text Label 6900 3750 0    50   ~ 0
+~TC_CS
+$Comp
+L power:GNDD #PWR0124
+U 1 1 5DD63F7A
+P 9200 4250
+F 0 "#PWR0124" H 9200 4000 50  0001 C CNN
+F 1 "GNDD" H 9204 4095 50  0000 C CNN
+F 2 "" H 9200 4250 50  0001 C CNN
+F 3 "" H 9200 4250 50  0001 C CNN
+	1    9200 4250
+	1    0    0    -1  
+$EndComp
+Text Label 9600 3650 0    50   ~ 0
+MISO
+Text Label 9600 3550 0    50   ~ 0
+SCK
+$Sheet
+S 600  4400 700  2500
+U 5CDC06D0
+F0 "thermocouple-swarm-node-hardware-components" 50
+F1 "thermocouple-swarm-node-hardware-components.sch" 50
+F2 "SWDCLK" I R 1300 4500 50 
+F3 "SWDIO" I R 1300 4600 50 
+F4 "SWO" I R 1300 4700 50 
+F5 "XC1" I R 1300 4800 50 
+F6 "XC2" I R 1300 4900 50 
+F7 "ANT" I R 1300 5000 50 
+F8 "DEC5" I R 1300 5100 50 
+F9 "DCC" I R 1300 5200 50 
+F10 "DEC6" I R 1300 5300 50 
+F11 "DEC4" I R 1300 5400 50 
+F12 "DEC3" I R 1300 5500 50 
+F13 "DEC1" I R 1300 5600 50 
+F14 "VDD" I R 1300 5700 50 
+F15 "DCCH" I R 1300 5800 50 
+F16 "VDDH" I R 1300 5900 50 
+F17 "DECUSB" I R 1300 6000 50 
+F18 "VBUS" I R 1300 6100 50 
+F19 "XL1" I R 1300 6200 50 
+F20 "XL2" I R 1300 6300 50 
+F21 "D+" I R 1300 6400 50 
+F22 "D-" I R 1300 6500 50 
+F23 "BATT_V_EN" I R 1300 6600 50 
+F24 "BATT_V" I R 1300 6700 50 
+F25 "BATT_CHRG_EN" I R 1300 6800 50 
+$EndSheet
+Text Label 1300 6800 0    50   ~ 0
+BATT_CHRG_EN
+Text Label 6900 5050 0    50   ~ 0
+BATT_CHRG_EN
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DDD7676
+P 7500 4850
+F 0 "SW1" H 7500 5135 50  0000 C CNN
+F 1 "SW_Push" H 7500 5044 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-3000P" H 7500 5050 50  0001 C CNN
+F 3 "~" H 7500 5050 50  0001 C CNN
+	1    7500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0145
+U 1 1 5DDD7824
+P 7750 4800
+F 0 "#PWR0145" H 7750 4650 50  0001 C CNN
+F 1 "VCC" H 7767 4973 50  0000 C CNN
+F 2 "" H 7750 4800 50  0001 C CNN
+F 3 "" H 7750 4800 50  0001 C CNN
+	1    7750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0146
+U 1 1 5DD7A836
+P 9950 5250
+F 0 "#PWR0146" H 9950 5100 50  0001 C CNN
+F 1 "VCC" H 9967 5423 50  0000 C CNN
+F 2 "" H 9950 5250 50  0001 C CNN
+F 3 "" H 9950 5250 50  0001 C CNN
+	1    9950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5DD7E72C
+P 9750 5750
+F 0 "D4" H 9741 5966 50  0000 C CNN
+F 1 "LED" H 9741 5875 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9750 5750 50  0001 C CNN
+F 3 "~" H 9750 5750 50  0001 C CNN
+	1    9750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5250 9950 5350
+Wire Wire Line
+	9950 5650 9950 5750
+Wire Wire Line
+	9950 5750 9900 5750
+Text Label 9600 5750 2    50   ~ 0
+LED
+Text Label 6900 2150 0    50   ~ 0
+LED
+Wire Wire Line
+	6900 4850 7300 4850
+Wire Wire Line
+	7700 4850 7750 4850
+Wire Wire Line
+	7750 4850 7750 4800
+NoConn ~ 6900 2650
+NoConn ~ 6900 3850
+$Comp
+L Sensor_Temperature:MAX31855KASA U2
+U 1 1 5DDD8AD3
+P 9200 3750
+F 0 "U2" H 8950 3400 50  0000 C CNN
+F 1 "MAX31855KASA" H 8800 3300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10200 3400 50  0001 C CIN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf" H 9200 3750 50  0001 C CNN
+	1    9200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5D1F9139
+P 8400 3750
+F 0 "C27" H 8515 3796 50  0000 L CNN
+F 1 "10n" H 8515 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8438 3600 50  0001 C CNN
+F 3 "~" H 8400 3750 50  0001 C CNN
+	1    8400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermocouple_Block TC1
+U 1 1 5DDD95F6
+P 8000 3750
+F 0 "TC1" H 8046 4075 50  0000 C CNN
+F 1 "Thermocouple_Block" H 8046 3984 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7425 3800 50  0001 C CNN
+F 3 "~" H 7425 3800 50  0001 C CNN
+	1    8000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3650 8300 3650
+Wire Wire Line
+	8300 3650 8300 3600
+Wire Wire Line
+	8300 3600 8400 3600
+Wire Wire Line
+	8400 3600 8700 3600
+Wire Wire Line
+	8700 3600 8700 3650
+Wire Wire Line
+	8700 3650 8800 3650
+Connection ~ 8400 3600
+Wire Wire Line
+	8200 3850 8300 3850
+Wire Wire Line
+	8300 3850 8300 3900
+Wire Wire Line
+	8300 3900 8400 3900
+Wire Wire Line
+	8400 3900 8700 3900
+Wire Wire Line
+	8700 3900 8700 3850
+Wire Wire Line
+	8700 3850 8800 3850
+Connection ~ 8400 3900
+Text Label 9600 3850 0    50   ~ 0
+~TC_CS
+Wire Wire Line
+	9200 3250 9200 3300
+Wire Wire Line
+	9200 4150 9200 4200
+Wire Wire Line
+	9200 3300 10050 3300
+Wire Wire Line
+	10050 3300 10050 3600
+Connection ~ 9200 3300
+Wire Wire Line
+	9200 3300 9200 3350
+Wire Wire Line
+	10050 3900 10050 4200
+Wire Wire Line
+	10050 4200 9200 4200
+Connection ~ 9200 4200
+Wire Wire Line
+	9200 4200 9200 4250
+$EndSCHEMATC
